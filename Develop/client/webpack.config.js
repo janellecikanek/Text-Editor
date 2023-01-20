@@ -28,6 +28,17 @@ module.exports = () => {
           swSrc: '/src-sw.js',
           swDest: 'service-worker.js',
         }),
+        new WebpackPwaManifest({
+          fingerprints: false,
+          inject: true,
+          name: 'Jate',
+          short_name: 'Text Editor',
+          description: '',
+          background_color: '',
+          theme_color: '',
+          start_url: './',
+          publicPath: './',
+        }),
     ],
 
     module: {
@@ -48,7 +59,7 @@ module.exports = () => {
             options: {
               presets: 
                 ['@babel/preset-env'],
-              
+                plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
 
             }
           }
