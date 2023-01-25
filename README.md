@@ -37,7 +37,7 @@ https://fierce-bayou-87380.herokuapp.com/
 
 ## Credits
 
-No other collaborators at this time.
+https://github.com/janellecikanek
 
 ## License
 
