@@ -19,7 +19,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
 
     },
-    target: "node",
+   // target: "node",
     plugins: [
       // Webpack plugin that generates our html file and injects our bundles. 
     // new NodePolyfillPlugin(),
@@ -42,8 +42,8 @@ module.exports = () => {
         description: 'Add and Edit your Text!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
