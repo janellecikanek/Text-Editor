@@ -31,9 +31,9 @@ To create this app idb, webpack, workbox service worker and Heroku was used.
 
 ## Usage
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+https://fierce-bayou-87380.herokuapp.com/
+
+![alt JATE Text Editior Screenshot](client/src/images/JATE.png)
 
 ## Credits
 
