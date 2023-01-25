@@ -19,7 +19,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
 
     },
-   // target: "node",
+    target: "node",
     plugins: [
       // Webpack plugin that generates our html file and injects our bundles. 
     // new NodePolyfillPlugin(),
